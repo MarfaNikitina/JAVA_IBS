@@ -6,6 +6,7 @@ public class Task14 {
         int[] array = new int[15];
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(41) - 20;
+            System.out.println(array[i]);
         }
         int min = array[0];
         int max = array[0];
